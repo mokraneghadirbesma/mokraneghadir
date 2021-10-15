@@ -1,0 +1,183 @@
+/*
+header
+*/
+.heading-site{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+	width=100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(0,0,0,0.9);
+	position= fixed;
+    top: 0;
+	z-index: 999;
+	
+}
+
+.header .header-logo{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin-left: 30px;
+}
+
+.header .header-menu{
+    float: right;
+	margin-right: 35px;	
+}
+
+.header .header-menu a{
+	margin-right: 20px;
+	color: #FFFFFF;
+}
+
+.header .header-menu a:hover{
+	color: #3498db;
+}
+
+.banner{
+	margin-top: -20px;
+}
+
+.banner .banner-img{
+	position: relative;
+	width:100%;
+}
+
+.banner .banner-content{ 
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top:50%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{ 
+	color:#ffffff;
+}
+
+/*
+about
+*/
+.about .about-single-element .icon{
+	font-size: 60px;
+	text-align: center;
+}
+
+.about .about-single-element {
+	text-align: center;
+}
+
+.about .about-single-element .p{
+	text-align: left;
+	margin-top: 20px;
+}
+
+.button {
+	width: 180px;
+	padding: 10px;
+	padding-right: 10px;
+	text-align: center;
+	margin: 10px;
+}
+
+.container{
+	text-align: right;
+	
+}
+
+.img{
+	position: left;
+	padding: 10px;
+	background-size: cover;
+}
+.table-container{
+	margin:  5px auto 0;
+	padding: 0 5%;
+	box-sizing: border-box;
+	font-size: 0.5cm;
+	/* min-width: 400px; */
+}
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table tbody tr {
+	font-width: medium;
+	letter-spacing: 0.35px;
+	opacity: 2;
+	padding: 5px;
+	vertical-align:top;
+	border: 1px solid #dee2e689;
+}
+.table tbody th {
+	/* font-width: normal; */
+	letter-spacing: 0.35px;
+	opacity: 2;
+	padding: 8px ;
+	vertical-align:top;
+	border: 1px solid #dee2e685;
+}
+
+.table tbody td {
+	/* font-width: normal; */
+	letter-spacing: 0.35px;
+	opacity: 2;
+	padding: 8px ;
+	vertical-align:top;
+	border: 1px solid #dee2e685;
+}
+span{
+	display: block;
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	background: aliceblue;
+	text-align: center;
+	font-size: 3em;
+	font-family:'Lato';
+}
+
+.overlay{
+	height:0%;
+	width:  100;
+	position: fixed;
+	z-index:1;
+	left: 0;
+	top: 0;
+	background-color:rgba(0,0,0,0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content{
+	position: relative;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a{
+	padding:8px;
+	text-decoration: none;
+	font-size: 36px;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+	color:#f1f1f1;
+}
+
+.overlay .closebtn{
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
